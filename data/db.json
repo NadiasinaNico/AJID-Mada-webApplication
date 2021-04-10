@@ -1,0 +1,25 @@
+{
+    "blogs": [
+        { "title": "Article One",
+            "author": "nadiasina",
+            "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis ea  expedita qui quidem iusto provident ab reiciendis commodi suscipit vel esse dolores  adipisci distinctio qui accusamus harum repellat dolorum reprehenderit laudantium magni?   Quasi quo veniam illo beatae modi tempora expedita quaerat laboriosam reiciendis, blanditiis perferendis!",
+            "id": 1
+        },
+        { "title": "Article Two",
+            "author": "nadiasina",
+            "body": "Lorem ipsum dolor sit ametconsectetur adipisicing elit.Perspiciatis ea Lorem ipsum dolor sit ametconsectetur adipisicing elit.Perspiciatis ea vel esse dolores  adipisci distinctio qui accusamus harum repellat dolorum reprehenderit laudantium magni?   Quasi quo veniam illo beatae modi tempora expedita quaerat laboriosam reiciendis, blanditiis perferendis!",
+            "id": 1
+        },
+        { "title": "Article Three",
+          "author": "nadiasina",
+            "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis, ea, expedita qui quidem iusto provident ab reiciendis commodi suscipit vel esse dolores adipisci distinctio qui accusamus harum repellat dolorum reprehenderit laudantium magni?  Quasi quo veniam illo beatae modi tempora expedita quaerat laboriosam reiciendis, blanditiis perferendis!",
+            "id": 1
+        },
+        { "title": "Article Four",
+            "author": "nadiasina",
+            "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis, ea,  expedita qui quidem iusto provident ab reiciendis commodi suscipit vel esse dolores  adipisci distinctio qui accusamus harum repellat dolorum reprehenderit laudantium magni?  Quasi quo veniam illo beatae modi tempora expedita quaerat laboriosam reiciendis, blanditiis perferendis!",
+            "id": 1
+        }
+    ]
+   
+}

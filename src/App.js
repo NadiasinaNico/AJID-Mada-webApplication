@@ -1,25 +1,51 @@
-import logo from './logo.svg';
 import './App.css';
-
+import react from 'react';
+import {BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Navbar from './Navbar';
+import Home from './Home';
+import Create from './Create';
+import BlogDetail from './BlogDetail';
+import Contact from './Contact';
+import Service from './Service';
+import Inscription from './Inscription';
+import Login from './login';
+import Ajidmada from './ajidmada';
 function App() {
   return (
+    <Router>
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Navbar />
+   <div className="content">
+   <Switch>
+   <Route exact path="/">
+   <Home />
+   </Route>
+   <Route path="/create">
+     <Create />
+   </Route>
+   <Route path="/blog/:id">
+     <BlogDetail />
+   </Route>
+   <Route path="/service">
+     <Service />
+   </Route>
+   <Route path="/contact">
+     <Contact />
+   </Route>
+   <Route path="/inscrire">
+     <Inscription />
+   </Route>
+   <Route path="/login">
+     <Login />
+   </Route>
+   <Route path="/ajidmada">
+     <Ajidmada />
+   </Route>
+   </Switch>
+   
+</div>
+   </div>
+   </Router>
   );
 }
-
 export default App;
