@@ -10,6 +10,7 @@ import Service from './Service';
 import Inscription from './Inscription';
 import Login from './login';
 import Ajidmada from './ajidmada';
+import NotFound from './NotFound';
 function App() {
   return (
     <Router>
@@ -40,6 +41,9 @@ function App() {
    </Route>
    <Route path="/ajidmada">
      <Ajidmada />
+   </Route>
+   <Route path="*">
+     <NotFound />
    </Route>
    </Switch>
    

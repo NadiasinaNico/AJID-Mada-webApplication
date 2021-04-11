@@ -1,11 +1,33 @@
-
+import useEffech from "./useEffech";
+import { useHistory, useParams } from "react-router-dom";
 const BlogDetail = () => {
-    return (
-        <div className="bloglist">
-        <h2>test Blog detail</h2>
-        <p>Lorem ipsum doharum repellat dolorum reprehenderit lo beatae modi tempora expedita quaerat </p>
+   const { id } = useParams();
+   const { data: blog,error, isPending} = useEffech('http://localhost:8000/blogs/' + id);
+   const history = useHistory();
+   const handleClick= () => {
+       fetch('http://localhost:8000/blogs/' + blog.id, {
+           method: 'DELETE'
+       }).then(() => {
+           history.push('/');
+       })
 
+   }
+
+   return (
+       <div className="blog-details">
+       {isPending && <div>Loading...</div> }
+       {error && <div>{ error } </div> }
+       { blog && (
+           <article>
+           <h2>{ blog.title }</h2>
+           <p>Written by {blog.author }</p>
+           <div>{ blog.body }</div>
+           <button onClick={handleClick}>delete</button>
+           </article>
+       )}
+      
+        
        </div>
-    )
+   );
 }
 export default BlogDetail;

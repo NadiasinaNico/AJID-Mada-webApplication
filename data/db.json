@@ -1,25 +1,32 @@
 {
-    "blogs": [
-        { "title": "Article One",
-            "author": "nadiasina",
-            "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis ea  expedita qui quidem iusto provident ab reiciendis commodi suscipit vel esse dolores  adipisci distinctio qui accusamus harum repellat dolorum reprehenderit laudantium magni?   Quasi quo veniam illo beatae modi tempora expedita quaerat laboriosam reiciendis, blanditiis perferendis!",
-            "id": 1
-        },
-        { "title": "Article Two",
-            "author": "nadiasina",
-            "body": "Lorem ipsum dolor sit ametconsectetur adipisicing elit.Perspiciatis ea Lorem ipsum dolor sit ametconsectetur adipisicing elit.Perspiciatis ea vel esse dolores  adipisci distinctio qui accusamus harum repellat dolorum reprehenderit laudantium magni?   Quasi quo veniam illo beatae modi tempora expedita quaerat laboriosam reiciendis, blanditiis perferendis!",
-            "id": 1
-        },
-        { "title": "Article Three",
-          "author": "nadiasina",
-            "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis, ea, expedita qui quidem iusto provident ab reiciendis commodi suscipit vel esse dolores adipisci distinctio qui accusamus harum repellat dolorum reprehenderit laudantium magni?  Quasi quo veniam illo beatae modi tempora expedita quaerat laboriosam reiciendis, blanditiis perferendis!",
-            "id": 1
-        },
-        { "title": "Article Four",
-            "author": "nadiasina",
-            "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis, ea,  expedita qui quidem iusto provident ab reiciendis commodi suscipit vel esse dolores  adipisci distinctio qui accusamus harum repellat dolorum reprehenderit laudantium magni?  Quasi quo veniam illo beatae modi tempora expedita quaerat laboriosam reiciendis, blanditiis perferendis!",
-            "id": 1
-        }
-    ]
-   
+  "blogs": [
+    {
+      "title": "Math cours",
+      "author": "nadiasina",
+      "body": "Lorem ipsum dolor sit niam illo beatae modi tempora expedita quaerat laboriosam reiciendis, blanditiis perferendis!",
+      "id": 1,
+      "page": "300pages"
+    },
+    {
+      "title": "Maths Terminales",
+      "author": "nadiasina",
+      "body": "Lorem ipsum dolor sit ametconsectetur adipisicing elitatae modi tempora expedita quaerat laboriosam reiciendis, blanditiis perferendis!",
+      "id": 2,
+      "page": "200 pages"
+    },
+    {
+      "title": "Maths 3em",
+      "author": "nadiasina",
+      "body": "Lorem ipsum doharum repellat dolorum reprehenderit lo beatae modi tempora expedita quaerat laboriosam reiciendis, blanditiis perferendis!",
+      "id": 3,
+      "page": "400pages"
+    },
+    {
+      "title": "Maths Concours ENI",
+      "author": "nico",
+      "body": "Reussir Vos aux concour ENI Livre Maths",
+      "id": 4,
+      "page": "300pages"
+    }
+  ]
 }
